@@ -24,9 +24,11 @@ const Hero = () => {
           <div className="mb-8 flex justify-center">
             <div className="relative">
               <div className="w-48 h-48 rounded-full bg-gradient-primary p-1">
-                <div className="w-full h-full rounded-full bg-gray-200 flex items-center justify-center text-6xl font-bold text-gray-400">
-                  RH
-                </div>
+                <img
+                  src="/lovable-uploads/a6a6ae20-b4ab-46ed-a937-3ce5a0760213.png"
+                  alt="R. Harish Balaji"
+                  className="w-full h-full rounded-full object-cover"
+                />
               </div>
               <div className="absolute -top-2 -right-2 w-12 h-12 bg-gradient-accent rounded-full flex items-center justify-center">
                 <span className="text-white font-bold text-lg">👋</span>
