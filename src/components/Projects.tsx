@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -19,7 +20,7 @@ const Projects = () => {
       description: 'A comprehensive task management application with intuitive UI design and local storage capabilities.',
       techStack: ['Flutter', 'Dart', 'Local Storage', 'Figma'],
       role: 'Mobile Developer & UI Designer',
-      githubUrl: 'https://github.com/HarishBalaji2004',
+      githubUrl: 'https://github.com/HarishBalaji2004/flutter-task-manager',
       demoUrl: null,
       gradient: 'bg-gradient-secondary'
     },
@@ -28,7 +29,7 @@ const Projects = () => {
       description: 'Interactive chatbot with customizable responses and modern web interface for enhanced user experience.',
       techStack: ['Flask', 'Python', 'JavaScript', 'HTML/CSS'],
       role: 'Full Stack Developer',
-      githubUrl: 'https://github.com/HarishBalaji2004',
+      githubUrl: 'https://github.com/HarishBalaji2004/python-chatbot',
       demoUrl: null,
       gradient: 'bg-gradient-accent'
     }
@@ -48,7 +49,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <Card 
               key={project.title} 
-              className="group hover:shadow-xl transition-all duration-300 animate-fade-in border-0 overflow-hidden"
+              className="group hover:shadow-xl transition-all duration-300 animate-fade-in border-0 overflow-hidden h-full flex flex-col"
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               <div className={`h-2 ${project.gradient}`}></div>
@@ -59,7 +60,7 @@ const Projects = () => {
                 </CardTitle>
               </CardHeader>
               
-              <CardContent className="space-y-4">
+              <CardContent className="space-y-4 flex-grow flex flex-col">
                 <p className="text-gray-600 leading-relaxed">
                   {project.description}
                 </p>
@@ -69,7 +70,7 @@ const Projects = () => {
                   <span className="text-sm text-primary font-medium">{project.role}</span>
                 </div>
                 
-                <div>
+                <div className="flex-grow">
                   <p className="text-sm font-medium text-gray-900 mb-2">Tech Stack:</p>
                   <div className="flex flex-wrap gap-1">
                     {project.techStack.map((tech) => (
@@ -83,7 +84,7 @@ const Projects = () => {
                   </div>
                 </div>
                 
-                <div className="flex space-x-3 pt-4">
+                <div className="flex space-x-3 pt-4 mt-auto">
                   <Button
                     variant="outline"
                     size="sm"
