@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -11,16 +10,8 @@ const Certifications = () => {
       provider: 'Simplilearn',
       date: 'March 2025',
       description: 'Comprehensive certification covering Flutter app development, Dart programming, and mobile UI design.',
-      link: '#',
+      link: 'https://drive.google.com/file/d/1ZeO8oer5_VefX3UApi7TUfC1NeROHAwZ/view?usp=sharing',
       featured: true
-    },
-    {
-      title: 'Introduction to Flutter',
-      provider: 'SkillUp',
-      date: 'Completed',
-      description: 'Foundational course covering Flutter basics and mobile development fundamentals.',
-      link: '#',
-      featured: false
     }
   ];
 
@@ -34,7 +25,7 @@ const Certifications = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="grid lg:grid-cols-1 gap-8 max-w-3xl mx-auto">
           {certifications.map((cert, index) => (
             <Card 
               key={cert.title}

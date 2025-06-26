@@ -14,7 +14,7 @@ const Achievements = () => {
       icon: Trophy,
       color: 'bg-gradient-secondary',
       linkText: 'View Proof',
-      link: '#'
+      link: 'https://drive.google.com/file/d/1Jh63K_HwW5cO9tDd3eHVF82hO3StOyK0/view?usp=sharing'
     },
     {
       title: 'Research Paper Publication',
@@ -24,7 +24,7 @@ const Achievements = () => {
       icon: FileText,
       color: 'bg-gradient-accent',
       linkText: 'View Paper',
-      link: '#'
+      link: 'https://drive.google.com/file/d/13kervUUVuhDWgPNC1ApvmLdJT_YU_rdK/view?usp=sharing'
     }
   ];
 

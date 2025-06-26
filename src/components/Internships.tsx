@@ -76,7 +76,7 @@ const Internships = () => {
                     <Button
                       variant="outline"
                       className="inline-flex items-center"
-                      onClick={() => window.open('#', '_blank')}
+                      onClick={() => window.open('https://drive.google.com/file/d/1gdA8FB8G_eI1gPT4YHLRRonRQ7zo19ru/view?usp=sharing', '_blank')}
                     >
                       <Award className="w-4 h-4 mr-2" />
                       View Certificate

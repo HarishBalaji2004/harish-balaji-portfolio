@@ -12,7 +12,7 @@ const Participations = () => {
       description: 'Participated in an intensive bootcamp focusing on API development and testing using Postman.',
       icon: Users,
       color: 'bg-gradient-primary',
-      link: '#'
+      link: 'https://drive.google.com/file/d/1NBQuY28j2pPXveGr3avFyHn1Al9-7ovV/view?usp=sharing'
     },
     {
       title: 'IBM ICE Day Poster Presentation',
@@ -20,7 +20,7 @@ const Participations = () => {
       description: 'Presented innovative project ideas and technical solutions at IBM Innovation and Collaboration Event.',
       icon: Presentation,
       color: 'bg-gradient-secondary',
-      link: '#'
+      link: null
     }
   ];
 
@@ -76,15 +76,17 @@ const Participations = () => {
                           {participation.description}
                         </p>
                         
-                        <Button
-                          variant="outline"
-                          size="sm"
-                          className="mt-4"
-                          onClick={() => window.open(participation.link, '_blank')}
-                        >
-                          <ExternalLink className="w-4 h-4 mr-2" />
-                          View Proof
-                        </Button>
+                        {participation.link && (
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            className="mt-4"
+                            onClick={() => window.open(participation.link, '_blank')}
+                          >
+                            <ExternalLink className="w-4 h-4 mr-2" />
+                            View Proof
+                          </Button>
+                        )}
                       </div>
                     </div>
                   </CardContent>
@@ -122,7 +124,7 @@ const Participations = () => {
               <div className="text-center mt-6">
                 <Button
                   variant="outline"
-                  onClick={() => window.open('#', '_blank')}
+                  onClick={() => window.open('https://drive.google.com/file/d/1G9VQ88DMTbCAK1ZhTPhqL9WU7Y9Ay03K/view?usp=sharing', '_blank')}
                 >
                   <ExternalLink className="w-4 h-4 mr-2" />
                   View Club Participation Proof
