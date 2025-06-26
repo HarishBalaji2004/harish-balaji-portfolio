@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -11,7 +10,7 @@ const Projects = () => {
       description: 'Secure authentication system built with modern web technologies, featuring session management and user security.',
       techStack: ['Node.js', 'Express', 'Express-session', 'EJS'],
       role: 'Full Stack Developer',
-      githubUrl: 'https://github.com/HarishBalaji2004',
+      githubUrl: 'https://github.com/HarishBalaji2004/MICRO_PROJECT',
       demoUrl: null,
       gradient: 'bg-gradient-primary'
     },
