@@ -19,9 +19,9 @@ Deployment
 Supports Vercel, Netlify, and GitHub Pages.
 
 Contact
-Email: your-email@example.com
-LinkedIn: linkedin.com/in/harishbalaji
-GitHub: github.com/harishbalaji
+Email: harishbalajipmk@gmail.com
+LinkedIn: www.linkedin.com/in/harish-balaji-2b4ba8283/
+GitHub: github.com/HarishBalaji2004
 
 License
 MIT License.
