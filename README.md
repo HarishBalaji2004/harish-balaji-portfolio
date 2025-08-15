@@ -21,7 +21,7 @@ Supports Vercel, Netlify, and GitHub Pages.
 Contact
 Email: harishbalajipmk@gmail.com
 LinkedIn: www.linkedin.com/in/harish-balaji-2b4ba8283/
-GitHub: github.com/HarishBalaji2004
+GitHub: https://github.com/HarishBalaji2004
 
 License
 MIT License.
