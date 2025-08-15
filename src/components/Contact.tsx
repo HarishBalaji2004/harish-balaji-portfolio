@@ -7,26 +7,26 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'arunkumars97462@gmail.com',
-      link: 'mailto:arunkumars97462@gmail.com'
+      value: 'harishbalajipmk@gmail.com',
+      link: 'mailto:harishbalajipmk@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 80151 30984',
-      link: 'tel:+918015130984'
+      value: '+91 9360333025',
+      link: 'tel:+919360333025'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      value: 'linkedin.com/in/arunkumar-s-8388a3252',
-      link: 'https://linkedin.com/in/arunkumar-s-8388a3252'
+      value: 'linkedin.com/in/harish-balaji-2b4ba8283',
+      link: 'https://linkedin.com/in/harish-balaji-2b4ba8283'
     },
     {
       icon: Github,
       label: 'GitHub',
-      value: 'github.com/ARUNKUMAR0984',
-      link: 'https://github.com/ARUNKUMAR0984'
+      value: 'github.com/HarishBalaji2004',
+      link: 'https://github.com/HarishBalaji2004'
     }
   ];
 
