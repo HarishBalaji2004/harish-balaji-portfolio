@@ -12,11 +12,6 @@ const Footer = () => {
             Final-year Computer Science Student | Passionate Developer | Aspiring Data Scientist
           </p>
           
-          <div className="flex justify-center items-center space-x-1 text-gray-400">
-            <span>Made with</span>
-            <Heart className="w-4 h-4 text-red-500" />
-            <span>using React & Tailwind CSS</span>
-          </div>
           
           <div className="mt-4 pt-4 border-t border-gray-800">
             <p className="text-gray-500 text-sm">
