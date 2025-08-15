@@ -8,11 +8,13 @@ Sections for About, Skills, Projects, and Contact
 
 Fast build with Vite
 
-Setup
-git clone <repository_url>
-cd harish-balaji-portfolio
-npm install
-npm run dev
+#Setup
+#git clone <repository_url>
+#cd harish-balaji-portfolio
+#npm install
+#npm run dev
+
+
 Deployment
 Supports Vercel, Netlify, and GitHub Pages.
 
